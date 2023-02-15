@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(31, 31, 31);
+}
+body, .quote-input {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.container {
+    background-color: black;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 50%;
+    min-width: 300px;
+    margin-top: 2rem;
+}
+.timer {
+    position: relative;
+    top: 2rem;  
+    font-size: 3rem;
+    color: aqua;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+.quote-display {
+    margin-bottom: 4rem;
+    margin-left: calc(1rem + 2px);
+    margin-right: calc(1rem + 2px);
+}
+.quote-input {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    outline: none;
+}
+.quote-input:focus {
+    border: 2px solid aqua;
+
+}
+.correct {
+    color: green;
+}
+
